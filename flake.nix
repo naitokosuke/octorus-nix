@@ -16,13 +16,13 @@
 
       mkOctorus = pkgs: pkgs.rustPlatform.buildRustPackage rec {
         pname = "octorus";
-        version = "0.3.5";
+        version = "0.4.1";
 
         src = pkgs.fetchFromGitHub {
           owner = "ushironoko";
           repo = "octorus";
           rev = "v${version}";
-          hash = "sha256-xVbLh1fe+59KxcZOtCoSAh6O+VdhAyBSGCPP3UZLidA=";
+          hash = "sha256-yIwnD5ef9Tb94wmrwnnbzkwOYKrwiphilXsHr/8JgJs=";
         };
 
         cargoLock = {
