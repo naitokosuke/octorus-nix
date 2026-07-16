@@ -13,6 +13,12 @@ This project uses the format: `<octorus-version>-nix.<revision>`
 
 ## [Unreleased]
 
+## [0.6.7-nix.1] - 2026-07-16
+
+### Changed
+
+- Update octorus to v0.6.7
+
 ## [0.6.6-nix.1] - 2026-06-03
 
 ### Changed
@@ -142,7 +148,8 @@ This project uses the format: `<octorus-version>-nix.<revision>`
 - Release workflow for CHANGELOG-based auto-tagging
 - Cachix binary cache (`octorus-nix`)
 
-[Unreleased]: https://github.com/naitokosuke/octorus-nix/compare/0.6.6-nix.1...HEAD
+[Unreleased]: https://github.com/naitokosuke/octorus-nix/compare/0.6.7-nix.1...HEAD
+[0.6.7-nix.1]: https://github.com/naitokosuke/octorus-nix/compare/0.6.6-nix.1...0.6.7-nix.1
 [0.6.6-nix.1]: https://github.com/naitokosuke/octorus-nix/compare/0.6.4-nix.1...0.6.6-nix.1
 [0.6.4-nix.1]: https://github.com/naitokosuke/octorus-nix/compare/0.6.3-nix.1...0.6.4-nix.1
 [0.6.3-nix.1]: https://github.com/naitokosuke/octorus-nix/compare/0.6.2-nix.1...0.6.3-nix.1
